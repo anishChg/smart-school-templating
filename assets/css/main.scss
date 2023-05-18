@@ -1,0 +1,84 @@
+@import "global.scss";
+
+
+body{
+  background-color: #f3f3f9;
+}
+
+// GLOBAL CSS
+.global_icon{
+  font-size: 12px;
+  margin-right: 8px;
+}
+
+// Card 
+.card{
+box-shadow: 0 1px 2px rgba(56,65,74,.15);
+margin-bottom: 30px;
+}
+.card-header{
+  background-color: transparent;
+}
+.card-title{
+  font-size: 16px;
+  margin: 0px;
+}
+
+
+// Front View
+.container {
+      display: flex;
+    }
+    
+    .sidebar {
+      width: 250px;
+      background-color: #f1f1f1;
+      padding: 20px;
+    }
+    
+    .main-content {
+      flex: 1;
+      padding: 20px;
+    }
+    
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .sidebar li {
+      margin-bottom: 10px;
+    }
+    
+    .sidebar li a {
+      text-decoration: none;
+      color: #333;
+      display: block;
+      padding: 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    
+    .sidebar li a:hover {
+      background-color: #ddd;
+    }
+    
+    .active {
+      background-color: #ddd;
+      font-weight: bold;
+    }
+
+// Navigation 
+.custom_nav{
+  a{
+
+  }
+}
+
+
+// Buttons 
+
+.btn-primary{
+    background-color: #405189;
+}
